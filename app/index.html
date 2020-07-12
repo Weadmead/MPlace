@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
+    <!--START wrapper -->
+    <div class="wrapper">
+      <!-- START content -->
+      <div class="content">
+        <!-- START header -->
     <header class="header">
+      <!-- header top -->
       <div class="header__top">
         <div class="container">
           <div class="header__top-inner">
@@ -17,10 +23,8 @@
               <a href="#">
                 <img src="images/logo.png" alt="" />
               </a>
-            </div>
-            <div class="header__invite">
-              <a class="header__invite-btn"" href="#">Become a Seller</a>
-            </div>
+            </div>            
+              <a class="header__invite-btn"" href="#">Become a Seller</a>            
             <div class="header__box">
               <a class="header__top-btn" href="#">Login</a>
               <a class="header__top-btn" href="#">Register</a>
@@ -28,11 +32,12 @@
           </div>
         </div>
       </div>
+      <!-- header menu -->
       <div class="header__menu">
         <div class="container">
           <div class="header__menu-inner">
             <nav class="menu">
-              <ul>
+              <ul class="menu__list">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">all products</a></li>
                 <li><a href="#">wordpress</a></li>
@@ -51,10 +56,143 @@
           </div>
         </div>
       </div>
-    </header>
+    </header>    
+    <!-- header END -->
+    <!-- START product menu -->
+    <section class="product__menu">
+      <div class="container">
+        <div class="product__menu-inner">          
+          <div class="product__menu-title">
+           <span>Create Your Own</span>
+            <div>Digital Product Marketplace</div> 
+          </div>
+          <div class="product__menu-text">
+            MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+          </div>
+          <div class="product__menu-btn">
+            <a class="active" href="#">View All Products</a>
+            <a href="#">Popular Products</a>
+          </div>          
+          <div class="product__menu-search">            
+            <form class="product__search-box">
+              <input type="text" class="menu-search" placeholder="Search your products..">              
+              <select class="product__menu-categories">                
+                <option>All Categories</option>
+                <option>All Categories</option>
+                <option>All Categories</option>
+                <option>All Categories</option>
+              </select>              
+              <button type="submit">Search Now</button>
+            </form>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!-- product menu END -->
+    <!-- START menu info -->
+    <section class="menu__info">
+      <div class="container">
+        <div class="menu__info-inner">
+          <!-- info box 1 -->
+          <div class="menu__info-box">
+          <div class="menu__info-icons">
+            <img src="images/icons/item-1.png" alt="">
+          </div>
+          <div class="menu__info-title">
+            Best UX Research
+          </div>
+          <div class="menu__info-text">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+            justo ut scelerisque the mattis, leo quam aliquet diam congue is laoreet elit metus.
+          </div>
+        </div>
+        <!-- info box 2 -->
+        <div class="menu__info-box">
+          <div class="menu__info-icons">
+            <img src="images/icons/item-2.png" alt="">
+          </div>
+          <div class="menu__info-title">
+            Fully Responsive
+          </div>
+          <div class="menu__info-text">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+            justo ut scelerisque the mattis, leo quam aliquet diam congue is laoreet elit metus.
+          </div>
+        </div>
+        <!-- info box 3 -->
+         <div class="menu__info-box">
+          <div class="menu__info-icons">
+            <img src="images/icons/item-3.png" alt="">
+          </div>
+          <div class="menu__info-title">
+            Buy & Sell Easily
+          </div>
+          <div class="menu__info-text">
+            Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+            justo ut scelerisque the mattis, leo quam aliquet diam congue is laoreet elit metus.
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu info END -->
+    <!--START featured__product -->
+    <section class="featured__product">
+      <div class="container">
+        <div class="featured__product-inner">          
+            <div class="featured__product-title">
+              Weekly Featured Products              
+            </div>
+
+            
+            
+
+            <div class="product__item">
+              <div class="product__item-img" style="background-image: url(images/content/featured-image.jpg);"></div>
+              <div class="product__item-content">
+              <div class="product__item-title">One Page Resume Template</div>
+              <div class="product__item-link">
+               <a href="#" class="product__item-author">
+                 <div class="avatar-author" style="background-image: url(images/icons/user.png);"></div>
+                 <span>AazzTech</span>
+               </a>
+               <a href="#" class="product__item-technology">
+                 <div class="avatar-technology" style="background-image: url(images/icons/technology.png);"></div>
+                 <span class="technology-name" >WordPress</span>
+               </a>           
+              </div>
+              <div class="product__item-text">
+                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
+                the mattis, leo quam aliquet congue.
+              </div>
+              </div>
+              <div class="product__item-box">
+                <span class="product__item-price">
+                  $10 - $ 50
+                </span>
+                <div class="lnr-heart"><span>46</span></div>
+                <div class="rate-star"></div>
+                <a class="lnr-cart"> <span>654</span></a>                               
+              </div>
+            </div>
+      </div>
+    </section>  
+    
+
+
+    </div>
+    <!-- content END -->
+    <!-- START footer -->
+    <footer class="footer">
+
+    </footer>
+    <!-- footer END -->
+
+    </div>
+    <!-- wrapper END -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
