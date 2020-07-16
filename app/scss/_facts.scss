@@ -1,0 +1,63 @@
+.facts {
+  padding: 95px;
+  background-color: #212225;
+}
+.facts__inner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    margin: 0;
+  }
+}
+.facts__items {
+  span {
+    color: #dea11f;
+    font-size: 36px;
+  }
+  .lnr-briefcase {
+    font-family: "Linearicons-Free";
+    font-size: 48px;
+    color: #dea11f;
+    padding-bottom: 50px;
+  }
+}
+.facts__sales {
+  span {
+    color: #58c9e9;
+    font-size: 36px;
+  }
+  .lnr-cloud-download {
+    font-size: 48px;
+    font-family: "Linearicons-Free";
+    color: #58c9e9;
+    padding-bottom: 50px;
+  }
+}
+.facts-customers {
+  span {
+    color: #77de51;
+    font-size: 36px;
+  }
+  .lnr-smile {
+    font-size: 48px;
+    font-family: "Linearicons-Free";
+    color: #77de51;
+    padding-bottom: 50px;
+  }
+}
+.facts-members {
+  span {
+    color: #ff6a6d;
+    font-size: 36px;
+  }
+  .lnr-users {
+    font-size: 48px;
+    font-family: "Linearicons-Free";
+    color: #ff6a6d;
+    padding-bottom: 50px;
+  }
+}

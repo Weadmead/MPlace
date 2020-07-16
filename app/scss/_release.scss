@@ -1,0 +1,82 @@
+.release__product {
+  padding: 120px;
+  background-color: #f6f7fb;
+  &-title {
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    font-size: 30px;
+    color: #000;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    button {
+      font-size: 16px;
+      line-height: 32px;
+      color: #747b86;
+      background-color: inherit;
+      border: none;
+      outline: none;
+    }
+    ul {
+      font-size: 16px;
+      line-height: 30px;
+      color: $text;
+      li {
+        display: none;
+      }
+    }
+  }
+}
+
+.release__product-inner {
+  align-items: center;
+}
+.release__product-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product__item {
+  margin-bottom: 30px;
+}
+.release__product-btn {
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  button {
+    font-size: 15px;
+    color: #747b86;
+    background-color: #f1f3f6;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 17px 10px 17px;
+    outline: none;
+    cursor: pointer;
+    & + button {
+      margin-left: 10px;
+    }
+    &.mixitup-control-active {
+      background-color: $blue;
+      color: #fff;
+    }
+  }
+}
+.bottom__btn {
+  width: 195px;
+
+  margin: 0 auto;
+  button {
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 12px;
+    background-color: $blue;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+  }
+}
