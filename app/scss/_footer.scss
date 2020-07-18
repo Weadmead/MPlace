@@ -1,0 +1,135 @@
+.footer {
+  &__top {
+    padding-top: 110px;
+    padding-bottom: 120px;
+    background-color: #262b30;
+    color: #ababab;
+    font-size: 15px;
+    line-height: 28px;
+    a {
+      color: #ababab;
+    }
+  }
+  &__copy {
+    background-color: #192027;
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+    padding: 40px;
+    a {
+      color: #fff;
+    }
+  }
+  &-title {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info {
+  max-width: 300px;
+  width: 100%;
+  position: relative;
+  padding-top: 60px;
+  font-family: "Linearicons-Free";
+  &-logo {
+    margin-bottom: 30px;
+    position: absolute;
+    top: -10px;
+  }
+  &-text {
+    margin-bottom: 30px;
+  }
+  &-contacts {
+    padding-left: 30px;
+  }
+  &-phone:before {
+    content: "\e830";
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+  }
+  &-mail:before {
+    content: "\e818";
+    position: absolute;
+    left: 0;
+  }
+  &-adress:before {
+    content: "\e833";
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+  }
+}
+.footer__about {
+  max-width: 200px;
+  width: 100%;
+}
+.footer__support {
+  max-width: 200px;
+  width: 100%;
+}
+.footer__social {
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  &-text {
+    margin-bottom: 35px;
+  }
+  input {
+    max-width: 365px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 15px 80px 15px 30px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+  }
+  button {
+    position: absolute;
+    background-color: $blue;
+    right: 33px;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 15px 25px;
+  }
+}
+.footer__social-links {
+  margin-top: 45px;
+  li {
+    display: inline-block;
+    margin-right: 13px;
+    a {
+      width: 42px;
+      height: 42px;
+      background-image: url(../images/icons/css_sprites.png);
+    }
+  }
+}
+
+.link-facebook {
+  background-position: -10px -10px;
+}
+.link-twitter {
+  background-position: -72px -10px;
+}
+.link-google {
+  background-position: -134px -10px;
+}
+.link-pinterest {
+  background-position: -196px -10px;
+}
+.link-linkedin {
+  background-position: -258px -10px;
+}
+.link-social {
+  background-position: -320px -10px;
+}

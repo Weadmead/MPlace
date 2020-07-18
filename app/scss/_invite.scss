@@ -1,0 +1,42 @@
+.invite__items {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: #fff;
+  a {
+    width: 195px;
+    padding: 12px;
+    background-color: #fff;
+    color: $blue;
+    border-radius: 25px;
+  }
+}
+
+.invite__item-shop,
+.invite__item-sell {
+  padding: 100px;
+  width: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.invite__item-sell {
+  background-color: $blue;
+}
+.invite__item-shop {
+  background-color: #7347c1;
+}
+.invite__item {
+  &-icon {
+    margin-bottom: 28px;
+  }
+  &-title {
+    width: 400px;
+    font-size: 36px;
+    line-height: 72px;
+    margin: 0 auto;
+  }
+  &-text {
+    width: 600px;
+    margin: 10px auto 45px;
+  }
+}

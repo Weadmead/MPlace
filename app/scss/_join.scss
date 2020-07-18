@@ -1,0 +1,28 @@
+.join {
+  padding: 110px;
+  text-align: center;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__title {
+    font-size: 36px;
+    line-height: 72px;
+    color: #fff;
+  }
+  &__text {
+    font-size: 18px;
+    color: #e7e7e7;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  &__btn {
+    a {
+      width: 195px;
+      padding: 12px;
+      background-color: #fff;
+      border-radius: 25px;
+      margin: 0 auto;
+      color: #0674ec;
+    }
+  }
+}

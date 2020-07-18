@@ -1,0 +1,28 @@
+.support {
+  background-color: #fff;
+}
+.support__inner {
+  display: flex;
+  justify-content: space-around;
+}
+.support__box-img {
+  margin-bottom: 30px;
+}
+.support__box-cashback {
+  border-right: 1px solid #e8eaf3;
+}
+.support__box-cashback,
+.support__box-support {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  span {
+    color: $blue;
+  }
+}
+span.support {
+  color: purple;
+}

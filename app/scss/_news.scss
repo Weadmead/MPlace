@@ -1,0 +1,56 @@
+.news {
+  padding: 120px;
+  text-align: center;
+  &__title {
+    width: 400px;
+    font-size: 36px;
+    line-height: 48px;
+    margin: 0 auto 29px;
+    color: #000;
+    span {
+      color: $blue;
+    }
+  }
+  &__text {
+    width: 700px;
+    margin: 0 auto 60px;
+  }
+}
+.news__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.product__item.news__item {
+  text-align: left;
+  .product__item-title {
+    font-size: 22px;
+  }
+  .product__item-text {
+    margin-bottom: 0px;
+  }
+  .product__item-box {
+    font-family: "Linearicons-Free";
+  }
+}
+.product__item-date {
+  font-size: 15px;
+  line-height: 30px;
+  margin-left: 10px;
+  padding-right: 45px;
+  border-right: 1px solid #ececec;
+}
+.lnr-clock {
+  color: $blue;
+  font-size: 15px;
+}
+.lnr-bubble,
+.lnr-eye {
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 15px;
+}
+.lnr-eye {
+  span {
+    margin-left: 12px;
+  }
+}
