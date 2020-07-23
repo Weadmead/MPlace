@@ -35,7 +35,7 @@
   width: 100%;
   position: relative;
   padding-top: 60px;
-  font-family: "Linearicons-Free";
+
   &-logo {
     margin-bottom: 30px;
     position: absolute;
@@ -52,17 +52,20 @@
     font-size: 16px;
     position: absolute;
     left: 0;
+    font-family: "Linearicons-Free";
   }
   &-mail:before {
     content: "\e818";
     position: absolute;
     left: 0;
+    font-family: "Linearicons-Free";
   }
   &-adress:before {
     content: "\e833";
     position: absolute;
     left: 0;
     bottom: 15px;
+    font-family: "Linearicons-Free";
   }
 }
 .footer__about {
