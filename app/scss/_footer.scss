@@ -68,17 +68,15 @@
     font-family: "Linearicons-Free";
   }
 }
+.footer__support,
 .footer__about {
   max-width: 200px;
   width: 100%;
-}
-.footer__support {
-  max-width: 200px;
-  width: 100%;
+  padding-left: 20px;
 }
 .footer__social {
-  max-width: 400px;
-  width: 100%;
+  width: 370px;
+
   position: relative;
   &-text {
     margin-bottom: 35px;
@@ -86,8 +84,9 @@
   input {
     max-width: 365px;
     width: 100%;
+    height: 47px;
     border-radius: 25px;
-    padding: 15px 80px 15px 30px;
+    padding: 0px 110px 0px 30px;
     outline: none;
     cursor: pointer;
     border: none;
@@ -95,7 +94,7 @@
   button {
     position: absolute;
     background-color: $blue;
-    right: 33px;
+    right: 4px;
     border-radius: 25px;
     outline: none;
     cursor: pointer;

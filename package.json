@@ -23,5 +23,7 @@
     "rateyo": "^3.0.0-alpha.2",
     "slick-carousel": "^1.8.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash.template": "^4.5.0"
+  }
 }

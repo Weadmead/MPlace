@@ -13,7 +13,15 @@
 @import "footer";
 
 //header start
-
+.header {
+  position: relative;
+}
+.header__logo-media {
+  display: none;
+}
+.header__btn-menu {
+  display: none;
+}
 .header__top-inner {
   display: flex;
   justify-content: space-between;
@@ -39,12 +47,13 @@
     color: #fff;
     padding: 5px 15px;
     border-radius: 25px;
-    margin-left: 10px;
+    margin-left: 20px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
     font-size: 14px;
     line-height: 28px;
     height: 37px;
     text-align: center;
+    width: 100px;
   }
 }
 .header__menu {
@@ -57,13 +66,9 @@
   }
 }
 
-.menu {
-  height: 80px;
-}
 .menu__list {
   display: flex;
   align-items: center;
-  height: 80px;
   li {
     display: inline-block;
     & + li {
@@ -103,8 +108,9 @@
     cursor: pointer;
     padding-left: 27px;
     img {
-      top: 15px;
-      left: 25px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       position: absolute;
     }
   }
@@ -159,7 +165,7 @@
       background-color: $blue;
     }
   }
-  .header__top-btn-off {
+  .header__top-btn--off {
     display: none;
   }
   .user {
@@ -210,6 +216,7 @@
         border-width: 1px;
         padding: 20px;
         overflow: auto;
+        z-index: 3;
       }
       .notification__inner::before,
       .message__inner::before,
@@ -514,7 +521,10 @@
     }
   }
 }
-.header__menu-inner {
+.header__menu {
+  position: relative;
+}
+.header__menu {
   position: relative;
 }
 .header__menu-pages,
@@ -523,9 +533,6 @@
 .header__menu-home {
   display: flex;
   align-items: center;
-  a {
-    line-height: 80px;
-  }
   &:hover {
     .pages__menu-dropdown,
     .header__menu-dropdown {
@@ -541,12 +548,7 @@
     }
   }
 }
-.header__menu-dropdown.menu__products {
-  left: 81px;
-}
-.header__menu-dropdown.menu__wp {
-  left: 230px;
-}
+
 .pages__menu-dropdown,
 .header__menu-dropdown {
   background-color: #fff;
@@ -554,7 +556,7 @@
   width: 270px;
   padding: 0px 20px;
   top: 80px;
-  left: 0;
+
   background-color: #fff;
   z-index: 1;
   font-size: 15px;
@@ -589,14 +591,14 @@
   justify-content: space-between;
 }
 .pages__menu-dropdown {
-  width: 1140px;
+  max-width: 1140px;
   width: 100%;
   padding: 0;
-
+  left: 0;
+  right: 0;
   .menu__pages-item {
     width: 410px;
-    margin-right: 40px;
-
+    margin-right: 10px;
     a {
       padding: 0;
       width: 180px;
@@ -1058,3 +1060,4 @@
   margin: 0 auto;
   padding-top: 6px;
 }
+@import "media";

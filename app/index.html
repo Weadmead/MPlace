@@ -14,24 +14,27 @@
       <!-- START content -->
     <div class="content">
         <!-- START header -->
-    <header class="header">
-      <!-- header top -->
-      <div class="header__top">
+  <header class="header">
+          <!-- header top -->
+          <div class="header__top">
         <div class="container">
           <div class="header__top-inner">
             <div class="header__logo">
-              <a href="#">
+              <a class="header__logo-main" href="#">
                 <img src="images/logo.png" alt="" />
+              </a>
+              <a class="header__logo-media" href="#">
+                <img src="images/logo-media.png" alt="" />
               </a>
             </div>            
               <a class="header__invite-btn"" href="#">Become a Seller</a>            
             <div class="header__box">
               <div class="circle__inner">
               <div class="notification__box">
-                <div class="notification__inner">                
+                <div class="notification__inner header__top-btn--off">                
                 <a href="#" class="notification header__circle active lnr-alarm">
                 <span>25</span>
-              </a>
+                </a>
               </div>
               <div class="notification__menu">
                 <div class="notification__title">
@@ -99,10 +102,9 @@
                   </div>                  
                 </div>
               </div>                          
-              </div>
-              
+              </div>              
               <div class="message__box">
-              <div class="message__inner">
+              <div class="message__inner header__top-btn--off">
               <a href="#" class="message header__circle active lnr-envelope">
                 <span>6</span>
               </a>
@@ -200,7 +202,7 @@
               </div>
               </div>
               <div class="basket__box">
-                <div class="basket__inner">
+                <div class="basket__inner header__top-btn--off">
               <a href="#" class="basket header__circle active lnr-cart">
                 <span>2</span>
               </a>
@@ -221,8 +223,7 @@
                     </a>  
                       <span class="basket__item-price">$60 </span>
                       <button type="reset" class="lnr-trash"></button>                  
-                  </div>
-                                        
+                  </div>                                        
                 </div>
                   <div class="basket__item ">
                   <a href="#" class="basket__images">
@@ -254,7 +255,7 @@
               </div>
               </div>
               <div class="user__box">
-              <a href="#" class="user">
+              <a href="#" class="user header__top-btn--off">
                 <div class="user__inner">
                 <div class="user__images">
                   <img src="images/icons/user-login.jpg" alt="">
@@ -280,19 +281,24 @@
                   <li><a class="lnr-exit" href="#">Logout</a></li>
                 </ul>
               </div>
+              <a class="header__top-btn header__top-btn--on" href="#">Login</a>
+              <a class="header__top-btn header__top-btn--on" href="#">Register</a>
               </div>              
-              <a class="header__top-btn header__top-btn-off" href="#">Login</a>
-              <a class="header__top-btn header__top-btn-off" href="#">Register</a>
+              
               </div>
+              <div class="header__btn-menu lnr-user"></div>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- header menu -->
-      <div class="header__menu">
+        </div>     
+        <div class="header__menu">
         <div class="container">
           <div class="header__menu-inner">
             <nav class="menu">
+              <div class="menu__btn">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>              
               <ul class="menu__list">
                 <li class="header__menu-home"><a href="#"> <span>HOME</span> </a>
                 <div class="header__menu-dropdown">
@@ -437,7 +443,7 @@
           </div>
         </div>
       </div>
-    </header>    
+        </header>
     <!-- header END -->
     <!-- START product menu -->
     <section class="product__menu">
@@ -1408,80 +1414,95 @@
     <!-- content END -->
     <!-- START footer -->
     <footer class="footer">
-      <div class="footer__top">
-      <div class="container">
-        <div class="footer__inner">
-          <!-- footer info -->
-          <div class="footer__info">
-            <div class="footer__info-logo">
-              <img src="images/footer-logo.png" alt="">
+        <div class="footer__top">
+          <div class="container">
+            <div class="footer__inner">
+              <!-- footer info -->
+              <div class="footer__info">
+                <div class="footer__info-logo">
+                  <img src="images/footer-logo.png" alt="" />
+                </div>
+                <div class="footer__info-text">
+                  Nunc placerat mi id nisi interdum they mollis. Praesent
+                  pharetra, justo ut scel erisque the mattis, leo quam.
+                </div>
+                <ul class="footer__info-contacts">
+                  <li>
+                    <a class="footer__info-phone" href="tel:67898752235"
+                      >Phone: +6789-875-2235</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="footer__info-mail"
+                      href="mailto:support@aazztech.com"
+                      >support@aazztech.com</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer__info-adress" href="#"
+                      >202 New Hampshire Avenue Northwest #100, New York-2573</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!-- footer about -->
+              <div class="footer__about">
+                <div class="footer-title">Our Company</div>
+                <ul class="footer__about-list">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">How It Work</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Copyright Notice</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+              <!-- footer support -->
+              <div class="footer__support">
+                <div class="footer-title">Help Support</div>
+                <ul class="footer__support-list">
+                  <li><a href="#">Support Forum</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Support Policy</a></li>
+                  <li><a href="#">Refund Policy</a></li>
+                  <li><a href="#">FAQs</a></li>
+                  <li><a href="#">Buyers Faq</a></li>
+                  <li><a href="#">Sellers Faq</a></li>
+                </ul>
+              </div>
+              <!-- footer social -->
+              <div class="footer__social">
+                <div class="footer-title">Newsletter</div>
+                <div class="footer__social-text">
+                  Subscribe to get the latest news, update and offer
+                  information. Don't worry, we won't send spam!
+                </div>
+                <div class="footer__social-search">
+                  <input type="text" placeholder="Enter email" />
+                  <button type="submit">Submit</button>
+                </div>
+                <ul class="footer__social-links">
+                  <li><a class="link-facebook" href="#"></a></li>
+                  <li><a class="link-twitter" href="#"></a></li>
+                  <li><a class="link-google" href="#"></a></li>
+                  <li><a class="link-pinterest" href="#"></a></li>
+                  <li><a class="link-linkedin" href="#"></a></li>
+                  <li><a class="link-social" href="#"></a></li>
+                </ul>
+              </div>
             </div>
-            <div class="footer__info-text">
-              Nunc placerat mi id nisi interdum they mollis. Praesent pharetra, justo ut scel erisque the mattis, leo quam.
-            </div>
-            <ul class="footer__info-contacts">
-              <li><a class="footer__info-phone" href="tel:67898752235">Phone: +6789-875-2235</a></li>
-              <li><a  class="footer__info-mail" href="mailto:support@aazztech.com">support@aazztech.com</a></li>
-              <li><a  class="footer__info-adress" href="#">202 New Hampshire Avenue
-              Northwest #100, New York-2573</a></li>
-            </ul>
           </div>
-          <!-- footer about -->
-          <div class="footer__about">
-            <div class="footer-title">Our Company</div>
-            <ul class="footer__about-list">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">How It Work</a></li>
-              <li><a href="#">Affiliates</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Copyright Notice</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </div>
-          <!-- footer support -->
-          <div class="footer__support">
-            <div class="footer-title">Help Support</div>
-            <ul class="footer__support-list">
-              <li><a href="#">Support Forum</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Support Policy</a></li>
-              <li><a href="#">Refund Policy</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Buyers Faq</a></li>
-              <li><a href="#">Sellers Faq</a></li>
-            </ul>
-          </div>
-          <!-- footer social -->
-          <div class="footer__social">
-            <div class="footer-title">Newsletter</div>
-            <div class="footer__social-text">
-              Subscribe to get the latest news, update and offer information. Don't worry, we won't send spam!
-            </div>
-            <div class="footer__social-search">
-              <input type="text" placeholder="Enter email">
-              <button type="submit">Submit</button>
-            </div>
-            <ul class="footer__social-links">
-              <li><a class="link-facebook" href="#"></a></li>
-              <li><a class="link-twitter" href="#"></a></li>
-              <li><a class="link-google" href="#"></a></li>
-              <li><a class="link-pinterest" href="#"></a></li>
-              <li><a class="link-linkedin" href="#"></a></li>
-              <li><a class="link-social" href="#"></a></li>
-            </ul>
-          </div>
-        </div>
-        </div>
         </div>
         <!-- footer copy -->
         <div class="footer__copy">
-          <div class="container"> 
-            ©2017 <a href="#">MartPlace.</a> 
-            All rights reserved. Created by <a href="#">AazzTech</a>
-          </div>         
-        </div>    
-    </footer>
+          <div class="container">
+            ©2017 <a href="#">MartPlace.</a> All rights reserved. Created by
+            <a href="#">AazzTech</a>
+          </div>
+        </div>
+      </footer>
     <!-- footer END -->
     
     </div>

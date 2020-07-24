@@ -18,5 +18,12 @@ $(function () {
     arrows: true,
   });
 
+  $(".menu__btn").on("click", function () {
+    $(".menu__list").slideToggle();
+  });
+  $(".header__btn-menu").on("click", function () {
+    $(".user__box").toggleClass("active");
+  });
+
   var mixer = mixitup(".release__product-items");
 });
