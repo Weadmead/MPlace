@@ -53,3 +53,12 @@ select {
   -moz-appearance: none;
   appearance: none;
 }
+.breadcrumbs__menu {
+  background-image: linear-gradient(
+    260deg,
+    rgb(13, 62, 242) -23%,
+    rgb(45, 47, 199) 35%,
+    rgb(76, 31, 156) 100%
+  );
+  opacity: 0.902;
+}

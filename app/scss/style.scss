@@ -11,6 +11,7 @@
 @import "support";
 @import "join";
 @import "footer";
+@import "category-page";
 
 //header start
 .header {
@@ -842,7 +843,7 @@
   .product__item-text {
     overflow: hidden;
     overflow: auto;
-    height: 120px;
+    max-height: 120px;
     &::-webkit-scrollbar {
       width: 5px;
       background-color: #f5f5f5;
@@ -930,7 +931,7 @@
 }
 // featured__product END
 
-/////item
+//item
 
 .product__item {
   width: 365px;
@@ -939,7 +940,7 @@
   border: 1px solid #f0f2f6;
   border-radius: 4px;
   &-img {
-    min-height: 230px;
+    height: 230px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1060,4 +1061,69 @@
   margin: 0 auto;
   padding-top: 6px;
 }
+// START breadcrumbs menu
+.breadcrumbs-menu__inner {
+  padding-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.breadcrumbs__menu-title {
+  width: 550px;
+  color: #f3f3f8;
+  font-size: 26px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.breadcrumbs__menu-search {
+  position: relative;
+  margin-bottom: 25px;
+  input {
+    height: 55px;
+    width: 580px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 120px;
+    border: none;
+    outline: none;
+  }
+  button {
+    background-color: $blue;
+    color: #fff;
+    position: absolute;
+    right: -2px;
+    bottom: 0;
+    top: 0;
+    border-radius: 25px;
+    border: none;
+    padding: 0px 30px;
+    cursor: pointer;
+    outline-color: $blue;
+  }
+}
+.breadcrumbs__list {
+  margin-bottom: 25px;
+  li {
+    display: inline-block;
+    position: relative;
+    & + li {
+      padding-left: 23px;
+      &::before {
+        content: "/";
+        position: absolute;
+        left: 5px;
+        color: #fff;
+      }
+    }
+    a {
+      color: #fff;
+      font-size: 15px;
+    }
+    span {
+      color: #bfcad7;
+    }
+  }
+}
+
 @import "media";
