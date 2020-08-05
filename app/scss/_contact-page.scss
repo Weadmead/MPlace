@@ -1,0 +1,136 @@
+.breadcrumbs-contact {
+  .breadcrumbs-menu__inner {
+    align-items: center;
+    padding: 110px 0px 90px 0px;
+  }
+  .breadcrumbs__list {
+    display: none;
+  }
+  .breadcrumbs__menu-title {
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 0;
+  }
+  .breadcrumbs__menu-text {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+.contact-page__map {
+  background-color: #e3e6ec;
+  height: 400px;
+}
+
+.contact-page__inner {
+  padding-top: 110px;
+  padding-bottom: 125px;
+}
+.contact__top-box {
+  text-align: center;
+  width: 700px;
+  margin: auto;
+  .top-box__title {
+    width: 550px;
+    margin: auto;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 20px;
+    a {
+      color: $blue;
+      &:hover {
+        text-shadow: 0px 0px 7px rgba(6, 116, 236, 0.45);
+      }
+    }
+  }
+  .top-box__text {
+    margin-bottom: 50px;
+  }
+}
+.contact__info-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  .info-box {
+    text-align: center;
+    width: 365px;
+    min-height: 295px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+    overflow: hidden;
+    &:hover {
+      box-shadow: 0px 0px 15px 0px rgba(6, 116, 236, 0.5);
+    }
+  }
+  .info-box__content {
+    padding: 45px 60px;
+  }
+  .info-box-title {
+    padding-top: 95px;
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+    position: relative;
+    &::before {
+      font-family: "Linearicons-Free";
+      position: absolute;
+      top: 15px;
+      left: 93px;
+      font-size: 48px;
+      color: $blue;
+    }
+  }
+  a {
+    display: block;
+    color: #555;
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+.contact__form-box {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  .form-box__title {
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e8ebf0;
+    margin-bottom: 40px;
+  }
+  form {
+    width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+  input {
+    width: 360px;
+    height: 50px;
+  }
+  textarea {
+    width: 100%;
+    resize: none;
+    height: 130px;
+    padding-top: 20px;
+  }
+  input,
+  textarea {
+    border: 1px solid #e8ebf0;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+    &::placeholder {
+      color: #9e9e9e;
+    }
+  }
+  button {
+    border: none;
+    cursor: pointer;
+    margin: 0px auto;
+  }
+}

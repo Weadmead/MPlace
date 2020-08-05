@@ -9,10 +9,17 @@
 }
 .page-404__img {
   margin-bottom: 10px;
+  img {
+    width: 393px;
+    height: 447px;
+  }
 }
 .page-404__title {
   font-size: 30px;
   color: #000;
   line-height: 80px;
   margin-bottom: 10px;
+}
+.page-404__btn:hover {
+  box-shadow: 0 14px 28px rgba(13, 106, 245, 0.25);
 }
