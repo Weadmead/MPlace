@@ -12,6 +12,7 @@
 @import "join";
 @import "footer";
 @import "category-page";
+@import "404-page";
 
 //header start
 .header {
@@ -1063,18 +1064,18 @@
 }
 // START breadcrumbs menu
 .breadcrumbs-menu__inner {
-  padding-top: 75px;
+  padding-top: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .breadcrumbs__menu-title {
   width: 550px;
   color: #f3f3f8;
-  font-size: 26px;
+  font-size: 30px;
   line-height: 40px;
-  margin-bottom: 30px;
-  text-align: center;
+  margin-bottom: 40px;
+  text-align: left;
 }
 .breadcrumbs__menu-search {
   position: relative;
@@ -1103,7 +1104,7 @@
   }
 }
 .breadcrumbs__list {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   li {
     display: inline-block;
     position: relative;
@@ -1122,6 +1123,7 @@
     }
     span {
       color: #bfcad7;
+      font-size: 15px;
     }
   }
 }

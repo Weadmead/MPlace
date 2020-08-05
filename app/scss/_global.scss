@@ -62,3 +62,16 @@ select {
   );
   opacity: 0.902;
 }
+.btn {
+  width: 200px;
+  background-color: $blue;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  line-height: 32px;
+  padding: 10px 0px;
+  border-radius: 25px;
+  &:hover {
+    box-shadow: 0 14px 28px rgba(13, 106, 245, 0.25);
+  }
+}
