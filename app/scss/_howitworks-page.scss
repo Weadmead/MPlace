@@ -1,0 +1,60 @@
+.breadcrumbs-howitworks {
+  .breadcrumbs-menu__inner {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .breadcrumbs__menu-title {
+    width: 420px;
+    text-align: center;
+  }
+}
+
+.howitworks__register-box {
+  padding: 100px 0px;
+  background: #fff;
+}
+.register-box__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.register-box__content {
+  width: 460px;
+  margin-left: 50px;
+}
+.box__content-title {
+  font-size: 30px;
+  color: #000;
+  line-height: 42px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+.box__content-text {
+  margin-bottom: 30px;
+  p {
+    margin: 0;
+  }
+}
+.register-box__image {
+  img {
+    width: 458px;
+    height: 353px;
+  }
+}
+.box__content-btn.btn {
+  background-color: #fff;
+  color: $blue;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+  &:hover {
+    background-color: $blue;
+    color: #fff;
+  }
+}
+
+.howitworks__register-box.upload-box {
+  background-color: #eff1f5;
+  .register-box__content {
+    order: -1;
+  }
+}
