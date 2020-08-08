@@ -26,10 +26,14 @@ $(function () {
   });
 
   $(".list-btn").on("click", function () {
-    $(".category__item").addClass("category__item-list");
+    $(".category__item, .favorites__item").addClass("category__item-list");
   });
   $(".grid-btn").on("click", function () {
-    $(".category__item").removeClass("category__item-list");
+    $(".category__item, .favorites__item").removeClass("category__item-list");
+  });
+
+  $(".favorites-filter__btn").on("click", function () {
+    $(".favorites-filter__list").slideToggle();
   });
 
   $(".menu__btn").on("click", function () {

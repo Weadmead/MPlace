@@ -1,0 +1,140 @@
+.favorites__item {
+  flex-basis: calc(33.333% - 30px);
+  .product__content-box {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ececec;
+    padding: 30px 30px;
+  }
+  .product__item-title {
+    padding: 0;
+  }
+  .product__item-text {
+    display: block;
+    order: 3;
+    margin-bottom: 0;
+  }
+  .product__item-img {
+    height: 230px;
+  }
+  .product__item-technology {
+    display: flex;
+    a.technology-link {
+      position: relative;
+      padding-left: 25px;
+      color: #7347c1;
+    }
+    .avatar-technology {
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 7px;
+      left: 0px;
+    }
+  }
+  .product__info-box {
+    border-bottom: none;
+    display: none;
+  }
+  .product__item-box {
+    padding: 20px 30px;
+    a.lnr-cart {
+      display: block;
+    }
+    a.product__item-technology {
+      display: none;
+    }
+    button {
+      background-color: #fff;
+      border: none;
+      span {
+        padding: 0;
+      }
+    }
+  }
+}
+.favorites__item.category__item-list {
+  .product__item-img {
+    width: 360px;
+    height: 265px;
+  }
+  .product__item-text {
+    height: 100px;
+  }
+  .product__content-box {
+    width: 33%;
+    border-bottom: none;
+    .product__item-author {
+      display: none;
+    }
+    .product__item-technology {
+      display: block;
+      order: 3;
+      padding-left: 0;
+    }
+  }
+  .product__info-box {
+    display: block;
+    padding: 50px 30px;
+  }
+  .product__item-box {
+    margin: auto;
+    padding-left: 0;
+    .rate-star,
+    button.lnr-heart {
+      display: none;
+    }
+  }
+}
+.content__items {
+  .pagination {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.favorites__menu-filter {
+  width: 200px;
+  border-right: 1px solid #eceff2;
+  border-left: 1px solid #eceff2;
+  position: relative;
+  text-align: center;
+  height: 100px;
+  .favorites-filter__list {
+    text-align: center;
+    width: 199px;
+    position: absolute;
+    top: 100px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  button.favorites-filter__btn {
+    background-color: #fff;
+    border: none;
+    position: relative;
+    margin: auto;
+    padding-top: 40px;
+    &::after {
+      content: "\e874";
+      font-family: "Linearicons-Free";
+      font-size: 10px;
+      position: absolute;
+      right: -15px;
+      top: 46px;
+    }
+  }
+  button.products-btn {
+    background-color: #fff;
+    border: none;
+    &.mixitup-control-active {
+      color: $blue;
+    }
+  }
+}
+.category__menu-inner.favorites__menu-inner {
+  padding: 0;
+  height: 100px;
+}
+.favorites__menu-title {
+  font-size: 24px;
+  color: #000;
+}
